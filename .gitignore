@@ -1,0 +1,6 @@
+node_modules/
+.context.min.txt
+.cursorrules
+.clauderules
+.DS_Store
+*.log

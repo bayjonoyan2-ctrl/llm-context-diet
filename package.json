@@ -1,0 +1,46 @@
+{
+  "name": "llm-context-diet",
+  "version": "0.1.0",
+  "description": "Shrink your codebase context for AI coding assistants (Cursor, Copilot, Claude). Save tokens, save money.",
+  "bin": {
+    "llm-context-diet": "bin/cli.js",
+    "ctx-diet": "bin/cli.js"
+  },
+  "main": "src/scanner.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test/test.js",
+    "demo": "node bin/cli.js scan --path ./src"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "cursor",
+    "copilot",
+    "claude",
+    "context-window",
+    "token",
+    "minify",
+    "cursorrules",
+    "clauderules"
+  ],
+  "author": "bayjonoyan2-ctrl",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayjonoyan2-ctrl/llm-context-diet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bayjonoyan2-ctrl/llm-context-diet/issues"
+  },
+  "homepage": "https://github.com/bayjonoyan2-ctrl/llm-context-diet#readme"
+}
